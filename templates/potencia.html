@@ -5,14 +5,14 @@
     <title>{{titulo}}</title>
 </head>
 <body>
-    <form action="/soma" method="POST">
-        <label for="number1">Número 01:</label>
+    <form action="/potencia" method="POST">
+        <label for="number1">Base:</label>
         <input type="number" name="num1" class="form-control" id="number1" placeholder="Informe um número"/>
 
-        <label for="number2">Número 02:</label>
+        <label for="number2">Expoente:</label>
         <input type="number" name="num2" class="form-control" id="number2" placeholder="Informe um número"/>
 
-        <button type="submit" class="botao">Somar</button>
+        <button type="submit" class="botao">Potenciar</button>
 
         <label id='result'>{{resultado}}</label>
     </form>
